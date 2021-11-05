@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background: url(mountain.jpg);
+    background-size: cover;
+}
+.water{
+    height: 100vh;
+    background: url(water.png);
+    animation:water 0.5s linear infinite;
+}
+@keyframes water{
+    0%{
+        background-position: -10% -10%;
+    }
+    100%{
+        background-position: 20% 100%;
+    }
+}
